@@ -1,0 +1,71 @@
+.contact-div-main{
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.contact-header{
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+}
+.heading-contact-title{
+     margin-top: 100px;
+     margin-bottom: 50px;
+     font-size: 56px;
+}
+.contact-subtitle{
+    font-size: 1.5rem;
+}
+.contact-text-div a{
+    text-decoration: none;
+}
+.contact-detail , .contact-email{
+    
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.contact-detail:hover,
+.contact-email:hover {
+  color: black;
+  text-shadow: 2px 1px 2px #b5b5b5;
+  transition: all 0.3s;
+}
+.icon-button-github{
+    margin-right: 20px;
+}
+.message{
+    padding-bottom: 175px;
+}
+
+@media  screen and (max-width: 850px) {
+ 
+    .contact-div-main{
+        display: block;
+    }
+    .message{
+        width: 500px;
+        height: 500px;
+    }
+    .imgcontact{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+}
+@media screen and (max-width: 450px){
+
+    .message{
+        width: 350px;
+        height: 350px;
+    }
+    .imgcontact{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+}

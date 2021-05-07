@@ -1,0 +1,102 @@
+div{
+    background-color: #171c28;
+}
+.greet-main{
+    background-color: #171c28;
+}
+.greeting-text-div{
+    color: white;
+    margin-top: 40px;
+}
+.contact{
+    background-color: #55198b;
+    margin-right: 30px;
+   font-size: 1.5rem;
+   border: none;
+}
+.contact:hover{
+    background-color: white;
+    color: #55198b;
+    border: none;
+}
+.main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 4rem;
+  }
+.greet-main{
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.greeting-main {
+    display: flex;
+    justify-content: space-between;
+  }
+.heading{
+    margin-top: 25%;
+    font-size: 4rem;
+    margin-bottom: 10%;
+}
+.greeting-text-p{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10%;
+}
+.button-greeting-div{
+    text-align: left;
+    
+}
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+@media screen and (max-width: 850px) {
+
+    .greeting-main {
+        display: block;
+      }
+      .greeting-image-div{
+          text-align: center;
+      }
+      .img1 {
+        
+        height: 450px;
+        width: 450px;
+      }
+      .greeting-text-p{
+          text-align: center;
+          font-size: 1.5rem;
+      }
+      .button-greeting-div{
+          text-align: center;
+      }
+      .heading{
+          text-align: center;
+      }
+    
+}
+@media screen and (max-width: 450px){
+    
+    .img1 {
+        height: 250px;
+        width: 250px;
+      }
+      .greeting-text-p{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .contact{
+        margin-bottom: 10px;
+        
+    }
+    .greeting-image-div{
+        text-align: center;
+    }
+}
